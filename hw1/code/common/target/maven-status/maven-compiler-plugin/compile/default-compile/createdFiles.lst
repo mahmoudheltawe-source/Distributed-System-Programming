@@ -1,0 +1,6 @@
+com/myproject/common/AnalysisType.class
+com/myproject/common/AWS.class
+com/myproject/common/SpecialMessages.class
+com/myproject/common/Work_Type.class
+com/myproject/common/myLogger.class
+com/myproject/common/s3_debuge.class

@@ -1,0 +1,99 @@
+Analysis:
+    Good example word :
+        English ->
+            1-	1560s    Robin    Hood    160.269
+            2-	1630s    Roman    Empire    281.526
+            3-	1810s    United    States    358886.825
+            4-	1670s    Holy    Spirit    1353.523
+            5-	1920s    Prime    Minister    487138.688
+        Hebrew ->
+            6-	1560s	בית	דין	474.73226888148133
+            7-	1560s	השפה	העברית	183.99498287743978
+            8-	1810s	הבורא	יתברך	928.7073170178769
+            9-	1810s	כדור	הארץ	475.64191277310215
+            10-	2000s	תל	אביב	780781.3031916899
+
+    Bad Word :
+        English ->
+            1-	1560s    thou    art    265.347
+            2-	1700s    mean    time    10133.951
+            3-	1810s    years    ago    231444.067
+            4-	1850s    took    place    690392.996
+            5-	1780s    right    hand    13021.206
+        Hebrew ->
+            6-	2000s	ואחר	כך	522166.79835816764
+            7-	1700s	בלי	ספק	128.98683996184036
+            8-	1700s	אני	יי	128.48068261541474
+            9-	1920s	בדרך	כלל	7487.300240893777
+            10-	1960s	לאחר	מכן	229728.55148830562
+
+
+    The following examples were extracted from the output.
+
+    Strong collocations include expressions such as "Robin Hood", "Roman Empire",
+    and "United States", which represent proper nouns or stable semantic units.
+
+    In contrast, weak collocations such as "thou art", "years ago", and "took place"
+    are frequent grammatical or functional expressions that do not represent
+    meaningful semantic bindings.
+
+
+Statistics:
+    English :
+        WithLocalAggregation ->
+            Step1:
+                Pairs sent = 169,974,172
+                Total size = 2,425,433,455 bytes (≈ 2313.1 MB)
+            Step2:
+                Pairs sent = 42,990,252
+                Total size = 393,446,242 bytes (≈ 375.2 MB)
+            Step3:
+                Pairs sent = 212,598,710
+                Total size = 2,267,842,348 bytes (≈ 2162.8 MB)
+            Step4:
+                Pairs sent = 16,900
+                Total size = 797,181 bytes (≈ 0.2 MB)
+
+        WithoutLocalAggregation ->
+            Step1:
+                Pairs sent = 668,440,867
+                Total size = 4,603,749,224 bytes (≈ 4390.5 MB)
+            Step2:
+                Pairs sent = 376,548,974
+                Total size = 1,504,437,707 bytes (≈ 1434.7 MB)
+            Step3:
+                Pairs sent = 212,598,710
+                Total size = 2,267,842,348 bytes (≈ 2162.8 MB)
+            Step4:
+                Pairs sent = 159,095,336
+                Total size = 5,682,181,783 bytes (≈ 5419 MB)
+    
+
+    Hebrew :
+        WithLocalAggregation ->
+            Step1:
+                Pairs sent = 26,267,990
+                Total size = 369,109,004 bytes (≈ 352 MB)
+            Step2:
+                Pairs sent = 8,466,335
+                Total size = 75,707,336 bytes (≈ 72.2 MB)
+            Step3:
+                Pairs sent = 34,734,073
+                Total size = 378,073,489 bytes (≈ 360.6 MB)
+            Step4:
+                Pairs sent = 5,100
+                Total size = 223,936 bytes (≈ 0.2 MB)
+        
+        WithoutLocalAggregation ->
+            Step1:
+                Pairs sent = 116,106,607
+                Total size = 782,761,037 bytes (≈ 746.7 MB)
+            Step2:
+                Pairs sent = 88,734,094
+                Total size = 353,038,344 bytes (≈ 336.7 MB)
+            Step3:
+                Pairs sent = 34,734,073
+                Total size = 378,073,489 bytes (≈ 360.6 MB)
+            Step4:
+                Pairs sent = 26,267,973
+                Total size = 946,578,139 bytes (≈ 902.8 MB)

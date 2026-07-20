@@ -1,0 +1,11 @@
+POS	https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/pos.txt
+CONSTITUENCY	https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/const.txt
+POS	https://raw.githubusercontent.com/Khs123123/ERROR.txt
+ERROR	https://raw.githubusercontent.com/Khs123123/ERROR.txt
+ERROR ERROR
+CONSTITUENCY    https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/pos.txt
+DEPENDENCY    https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/pos.txt
+POS	https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/const.txt
+DEPENDENCY	https://raw.githubusercontent.com/Khs123123/text-samples/refs/heads/main/const.txt
+
+
